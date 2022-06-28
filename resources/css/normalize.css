@@ -25,6 +25,7 @@
     min-height: 100vh; /*added*/
     text-rendering: optimizeSpeed; /*added*/
     box-sizing: border-box;
+    cursor: default; /*added*/
   }
   
   /**
