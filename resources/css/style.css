@@ -8,6 +8,8 @@ body {
 
 header {
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*1x5ucbr*_ga*MjAxNTkyMDUwNy4xNjUzMzU5Njgw*_ga_3LRZM6TM9L*MTY1NjE5MTQ1Ny42NS4xLjE2NTYxOTE0NjQuNTM.');
+    background-size: cover;
+    background-position: center center;
 }
 
 h1 {
