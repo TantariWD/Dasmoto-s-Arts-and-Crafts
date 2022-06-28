@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     margin: 0 5rem;
-    box-shadow: 0px 10px 20px 5px #9c9c9c;
+    box-shadow: 0 0.63rem 1.3rem 0.31rem #9c9c9c;
 }
 
 /* Header */
@@ -14,7 +14,7 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 100px;
+    font-size: 6.25rem;
     color: khaki;
     font-weight: bold;
     text-align: center;
@@ -23,12 +23,11 @@ h1 {
 /* Main */
 
 section {
-    width: 100%;
     text-align: center;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     margin-top: 1px;
@@ -58,7 +57,7 @@ section.paint {
 }
 
 figure {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -66,25 +65,52 @@ img {
     display: inline-block;
 }
 
-p {
-    margin: 0;
-    padding-bottom: 25px;
+h4 {
+    font-size: 1.25rem;
 }
 
-span {
+p {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.price {
     font-weight: bold;
     color: blue;
+    padding: 1rem 0;
 }
 
 /* Media Queries */
 
 @media only screen and (max-width: 992px) {
+    body {
+        margin: 0 2.5rem;
+    }
     h1 {
         font-size: 50px;
         overflow: hidden;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    p,
+    h4 {
+        font-size: 1rem;
+    }
+
+    figure {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        margin: 0;
+    }
+
+    figure {
+        width: 75%;
     }
 }
